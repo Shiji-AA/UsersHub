@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import axiosInstance from "../api/AxiosInstance";
+import axiosInstance from "../api/axiosInstance.jsx";
 import toast from "react-hot-toast";
 
 export default function EditUser() {

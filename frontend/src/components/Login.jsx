@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import logo from "../assets/logo.jpg";
 import admin1 from "../assets/admin1.jpg";
-import axiosInstance from "../api/AxiosInstance";
+import axiosInstance from "../api/axiosInstance.jsx";
 import { ACCESS_TOKEN } from "../constants";
 
 export default function Login() {

@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import logo from "../assets/logo.jpg";
 import tutor6 from "../assets/tutor6.jpg";
-import axiosInstance from "../api/AxiosInstance.jsx";
+import axiosInstance from "../api/axiosInstance.jsx";
 
 function Register() {
   const navigate = useNavigate();

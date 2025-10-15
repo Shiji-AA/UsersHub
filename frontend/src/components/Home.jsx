@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import Swal from "sweetalert2";
 import 'sweetalert2/dist/sweetalert2.min.css';
-import axiosInstance from "../api/AxiosInstance";
+import axiosInstance from "../api/axiosInstance.jsx";
 import Navbar from "../components/Navbar";
 import Footer from "./Footer";
 
